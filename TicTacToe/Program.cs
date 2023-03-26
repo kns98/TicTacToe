@@ -120,6 +120,7 @@ namespace TicTacToe
 
             int curRow = 0, curCol = 0;
 
+            //1d to 2d
             for (var i = 0; i < board.Length; i++)
                 if (board[i] == null)
                 {
@@ -194,9 +195,12 @@ namespace TicTacToe
 
         private static bool IsBoardFull(IEnumerable<string> board)
         {
+            //linq funtions are shortcuts
+            //quickly check if there is data
             return board.All(space => space != null);
         }
 
+        //idea: for involved code, use TDD (test-driven-development)
         private static string WhoWins(string[] board)
         {
             var numRows = (int)Math.Sqrt(board.Length);
