@@ -1,11 +1,14 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe", "TicTacToe\TicTacToe.csproj", "{B67070A5-7C75-42EE-A652-7D37A8A14F54}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0F633FA2-5E4E-4307-8BF9-21AA23237330}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		..\..\..\..\Downloads\tic-tac-toe.png = ..\..\..\..\Downloads\tic-tac-toe.png
 	EndProjectSection
 EndProject
 Global
@@ -21,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6251EAA8-1DAD-4FD4-9D69-CE1DD82F4C6B}
 	EndGlobalSection
 EndGlobal
