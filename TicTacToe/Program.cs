@@ -1,4 +1,14 @@
-﻿using System;
+﻿//commenting
+//for a team
+//
+// put the following
+// Name           : 
+// Date           :
+// Desription     :
+// Bug Tracker Id :
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
@@ -7,6 +17,17 @@ namespace TicTacToe
 {
     internal class Program
     {
+
+        /*
+         * Main Function (entry point)
+         * 
+         * Takes one parameter for command line arguments (windows)
+         * Not expecting any.
+         * 
+         * Function exits out back to the OS
+         * 
+         */
+
         private static void Main(string[] args)
         {
             var stillPlaying = true;
